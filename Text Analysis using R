@@ -1,0 +1,13 @@
+Performing text analysis of independence speech given by PM Mr.Modi in 2018 and 2017 by using tf-idf method and by simple word count method.
+To perform this analysis we have multiple packages like tm(), quanteda(),tidytext() in R. But I have used quanteda package for following reasons.
+•	quanteda’s and tidytext’s execution times are very similar as both packages rely on the stringi package for tokenization.
+•	This operation takes much longer in tm than in the other two packages.
+•	quanteda is much faster than tm in both feature selection and document-feature matrix construction.
+
+Following topics are covered in this text mining exercise.
+•	Regular Expression
+•	Tokenization
+•	Stop word removing
+•	Stemming
+•	Term frequency and inverse document frequency
+•	Visualizing text data 
